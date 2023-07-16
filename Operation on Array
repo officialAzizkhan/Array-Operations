@@ -1,0 +1,54 @@
+const friends = ["Ahmad", "Junaid", "Adil"];
+friends.push("Atif");
+console.log(friends);
+ 
+result is (4) ['Ahmad', 'Junaid', 'Adil', 'Atif']
+
+0:'Ahmad'
+1:'Junaid'
+2:'Adil'
+3:'Atif'
+length:4
+
+// add elements
+const friends = ["Ahmad", "Junaid", "Adil"];
+const newLength = friends.push("Atif");
+console.log(friends);
+console.log(newLength);
+
+      res(4) ['Ahmad', 'Junaid', 'Adil', 'Atif']
+1.	0: "Ahmad"
+2.	1: "Junaid"
+3.	2: "Adil"
+4.	3: "Atif"
+5.	length: 4
+
+friends.unshift("Abdul");
+console.log(friends);
+result is  (5) ['Abdul', 'Ahmad', 'Junaid', 'Adil', 'Atif']
+
+
+friends.pop();   // remove last element 
+
+console.log(friends);
+
+result is   (4) ['Abdul', 'Ahmad', 'Junaid', 'Adil']
+
+
+friends.shift()
+
+ console.log(friends);
+
+  result is (2) ['Ahmad', 'Junaid']
+
+
+console.log(friends.indexOf("Junaid"));
+   result is 1.
+
+
+console.log(friends.includes("Junaid"));
+console.log(friends.includes("Ali"));
+
+result is     true
+              false
+
